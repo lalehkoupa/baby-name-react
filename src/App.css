@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.boy {
+  background-color: lightblue;
+  color: rgb(8, 128, 209);
+}
+.girl {
+  background-color: lightpink;
+  color: rgb(248, 55, 55);
+}
+.allBabyName {
+  display: grid;
+  grid-template-areas: "p p p p p p p p p p p p";
+  gap: 0.3rem;
+  align-items: center;
+  text-align: center;
+}
+
+.allBabyName p {
+  grid-area: "p";
+  padding: 0.3rem;
+  margin: 0.3rem auto;
+  border-radius: 0.4rem;
+}
