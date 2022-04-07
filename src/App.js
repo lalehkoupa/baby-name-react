@@ -4,6 +4,7 @@ import BabyName from "./BabyName.js";
 
 function App() {
   return (
+    //rendering BabyName component
     <div className="App">
       <BabyName />
     </div>
